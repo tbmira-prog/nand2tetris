@@ -50,11 +50,13 @@ D=M
 D=D-M // n - i
 @BEGIN
 D;JLE // if n - i <= 0 or n <= i goto BEGIN -> for i = SCREEN; i < 8192; i++
+//TO DO
 @pixels
 D=M
 @i
 A=M
 M=D // R[i] = pixels
+//TO DO
 @i
 D=M+1
 M=D // i++
