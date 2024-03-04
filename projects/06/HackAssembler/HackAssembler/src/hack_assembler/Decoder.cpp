@@ -3,7 +3,9 @@
 #include <stdexcept>
 
 #include "HackLanguageSpecification.h"
-#include "StringToolBox.h"
+#include "..\string_tool_box\StringToolBox.h"
+
+using namespace hack_assembler;
 
 Decoder::Decoder(SymbolTable& symbol_table_ref) : symbol_table(symbol_table_ref)
 {}

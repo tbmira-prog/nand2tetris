@@ -1,5 +1,8 @@
 #include "HackAssembler.h"
-#include "Logger.h"
+
+#include "..\logger\Logger.h"
+
+using namespace hack_assembler;
 
 HackAssembler::HackAssembler(std::string file_path) : 
 	parser(file_path),

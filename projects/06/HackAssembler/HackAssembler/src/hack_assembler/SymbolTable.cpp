@@ -1,6 +1,9 @@
 #include "HackLanguageSpecification.h"
-#include "Logger.h"
 #include "SymbolTable.h"
+
+#include "..\logger\Logger.h"
+
+using namespace hack_assembler;
 
 SymbolTable::SymbolTable() : 
 	symbol_table(PREDEFINED_SYMBOLS.begin(),PREDEFINED_SYMBOLS.end()),

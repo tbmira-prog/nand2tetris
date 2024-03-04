@@ -18,6 +18,24 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\hack_assembler\Decoder.cpp" />
+    <ClCompile Include="..\src\hack_assembler\HackAssembler.cpp" />
+    <ClCompile Include="..\src\hack_assembler\Parser.cpp" />
+    <ClCompile Include="..\src\hack_assembler\SymbolTable.cpp" />
+    <ClCompile Include="..\src\logger\Logger.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\string_tool_box\StringToolBox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\hack_assembler\Decoder.h" />
+    <ClInclude Include="..\src\hack_assembler\HackAssembler.h" />
+    <ClInclude Include="..\src\hack_assembler\HackLanguageSpecification.h" />
+    <ClInclude Include="..\src\hack_assembler\Parser.h" />
+    <ClInclude Include="..\src\hack_assembler\SymbolTable.h" />
+    <ClInclude Include="..\src\logger\Logger.h" />
+    <ClInclude Include="..\src\string_tool_box\StringToolBox.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,24 +156,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\src\Decoder.cpp" />
-    <ClCompile Include="..\src\HackAssembler.cpp" />
-    <ClCompile Include="..\src\Logger.cpp" />
-    <ClCompile Include="..\src\main.cpp" />
-    <ClCompile Include="..\src\Parser.cpp" />
-    <ClCompile Include="..\src\StringToolBox.cpp" />
-    <ClCompile Include="..\src\SymbolTable.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\src\Decoder.h" />
-    <ClInclude Include="..\src\HackAssembler.h" />
-    <ClInclude Include="..\src\HackLanguageSpecification.h" />
-    <ClInclude Include="..\src\Logger.h" />
-    <ClInclude Include="..\src\Parser.h" />
-    <ClInclude Include="..\src\StringToolBox.h" />
-    <ClInclude Include="..\src\SymbolTable.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

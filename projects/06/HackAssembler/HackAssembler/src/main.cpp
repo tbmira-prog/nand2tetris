@@ -1,5 +1,8 @@
 #include <exception>
-#include "HackAssembler.h"
+#include "hack_assembler\HackAssembler.h"
+#include "logger/Logger.h"
+
+using namespace hack_assembler;
 
 int main(int argc, char* argv[])
 {

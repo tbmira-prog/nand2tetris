@@ -2,8 +2,10 @@
 
 #include <algorithm>
 
-#include "Logger.h"
-#include "StringToolBox.h"
+#include "..\logger\Logger.h"
+#include "..\string_tool_box\StringToolBox.h"
+
+using namespace hack_assembler;
 
 Parser::Parser(std::string file_path) :
 	assembly_file(),
